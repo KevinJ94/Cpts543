@@ -1,10 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+
+    <title>EECS Wiki</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <style>
+        .con {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .left {
+            margin-left: 80px;
+        }
+
+        .top {
+            margin-top: 10px;
+        }
+
+        .search {
+            margin-left: 10px;
+        }
+
+        .upload {
+            margin-left: 79px;
+        }
+    </style>
+
+    <script src="../js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../open-iconic-master/font/css/open-iconic-bootstrap.min.css">
+
 </head>
 <body>
+<div class=" con">
+    <div class="row">
+        <div class="col">
+            <a href="Home.html"><img src="https://wsu.edu/wp-content/themes/wsu-home/images/wsu-home-logo.svg"
+                                     alt="Washington State University"></a>
+
+            <div class="left">
+                <h4>EECS Wiki</h4>
+            </div>
+
+        </div>
+        <div class="col">
+
+        </div>
+        <div class="col" align="right">
+            <a type="button" class="btn btn-danger" href="Login.html">Logout</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <div id="accordion">
+                <div class="card top">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                <h5>Undergraduate Students</h5>
+
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="Home.html">Cras justo odio</a></li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Morbi leo risus</li>
+                                <li class="list-group-item">Porta ac consectetur ac</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card top">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                <h5>Master Students</h5>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="Home.html">Cras justo odio</a></li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Morbi leo risus</li>
+                                <li class="list-group-item">Porta ac consectetur ac</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card top">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                <h5>Phd Students</h5>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree"
+                         data-parent="#accordion">
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="Home.html">Cras justo odio</a></li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Morbi leo risus</li>
+                                <li class="list-group-item">Porta ac consectetur ac</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="col">
+                <a type="button" href="Asking.html" class="btn btn-danger"><span class="oi oi-bullhorn"></span> Ask Question</a>
+                <a type="button" href="Course.html" class="btn btn-primary"><span class="oi oi-arrow-circle-right"></span> Course Guidance</a>
+            </div>
+            <div class="col top">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" aria-label="Default"
+                           aria-describedby="inputGroup-sizing-default">
+
+                    <button class="btn btn-primary search"><span class="oi oi-magnifying-glass"></span>Search</button>
+                </div>
+            </div>
+            <div class="col">
+                Coding here!
+            </div>
+        </div>
+        <div class="col-2">
+
+            <nav class="navbar navbar-light bg-light">
+                <span class="navbar-brand mb-0 h1">My Resources</span>
+            </nav>
+            <ul class="list-group top">
+                <li class="list-group-item"><a href="Home.html">Cras justo odio</a></li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item">
+                    <a type="button" class="btn btn-primary" href="Home.html">View All</a>
+                    <a type="button" class="btn btn-success upload" href="Home.html">Upload</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div class="container" align="center"><h5>© Washington State University EECS Wiki</h5></div>
+
 
 </body>
 </html>
