@@ -206,5 +206,17 @@
 
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 
+<script type="text/javascript" src="../js/config.js" ></script>
+
+<!--数据封装在这里-->
+<script type="text/javascript" src="../js/data.js" ></script>
+<script>
+    config.tree({
+        type:1,//1有选择框，没有则不传type或传0
+        wrapper:'.f-tree',//容器
+        data:treeData,//数据
+        check:[1,2]//选中的数据，可以不传
+    });
+</script>
 </body>
 </html>
