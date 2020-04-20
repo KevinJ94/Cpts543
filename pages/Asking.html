@@ -151,7 +151,7 @@
                 <div id="summernote"></div>
                 <div align="right" class="top">
                     <button class="btn btn-success" onclick="submit()">Publish</button>
-                    <button class="btn btn-danger" onclick="submit()">Cancel</button>
+                    <button class="btn btn-danger" onclick="cancel()">Cancel</button>
                 </div>
             </div>
         </div>
@@ -185,6 +185,11 @@
 
     function submit() {
         alert("Published successfully!");
+        window.location.href="Home.html"
+    }
+
+    function cancel() {
+        alert("Canceled!");
         window.location.href="Home.html"
     }
 </script>
